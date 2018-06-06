@@ -18,6 +18,4 @@ Follow the steps to try the app:
 ### Development:
 If you want to look under the hood, start from the *src* folder because it's the root directory. Type `npm run watch` into the terminal for automatic compilation of the typescript files on each file change.
 
-And Have fun Coding. 
-
-<center>---------- X ----------</center>
+And Have fun Coding.
