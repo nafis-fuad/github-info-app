@@ -1,7 +1,7 @@
 {
   "name": "github-report",
   "version": "1.0.0",
-  "description": "",
+  "description": "A command line application for consuming the github api (everything in typescript)",
   "main": "index.js",
   "scripts": {
     "start": "node ./out/index.js",
