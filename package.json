@@ -1,23 +1,29 @@
 {
-  "name": "github-report",
-  "version": "1.0.0",
-  "description": "A command line application for consuming the github api (everything in typescript)",
-  "main": "index.js",
-  "scripts": {
-    "start": "node ./out/index.js",
-    "compile": "tsc",
-    "watch": "tsc -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": ["Github API", "Typescript"],
-  "author": "Nafis Fuad",
-  "license": "MIT",
-  "dependencies": {
-    "lodash": "^4.17.10",
-    "request": "^2.87.0"
-  },
-  "devDependencies": {
-    "@types/lodash": "^4.14.109",
-    "@types/request": "^2.47.0"
-  }
+	"name": "github-info-app",
+	"version": "1.0.0",
+	"description": "A command line application for consuming the Github API (with typescript!!!).",
+	"scripts": {
+		"start": "node ./build/index.js",
+		"compile": "./node_modules/typescript/bin/tsc",
+		"watch": "./node_modules/typescript/bin/tsc -w",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"clean": "rm -rf build"
+	},
+	"keywords": [
+		"Github API",
+		"Typescript",
+		"Lodash",
+		"Command line tool"
+	],
+	"author": "Nafis Fuad",
+	"license": "MIT",
+	"dependencies": {
+		"lodash": "^4.17.11",
+		"request": "^2.87.0"
+	},
+	"devDependencies": {
+		"@types/lodash": "^4.14.109",
+		"@types/request": "^2.47.0",
+		"typescript": "^3.5.1"
+	}
 }
