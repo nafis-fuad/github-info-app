@@ -1,6 +1,9 @@
 # Github Info App
 This is a command line application for consuming the Github REST API. This project was built as a practice project.
 
+## quick demo:
+<script id="asciicast-GRYfHy3FsV27Pcds0e6AX3zFj" src="https://asciinema.org/a/GRYfHy3FsV27Pcds0e6AX3zFj.js" async></script>
+
 ## Tech Stack
 1. Node.js
 2. Typescript
