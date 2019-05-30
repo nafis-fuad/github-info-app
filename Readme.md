@@ -1,6 +1,14 @@
-This is a command line application for consuming the Github REST API built as part of a practice project with the intention to try out the typescript language.
+# Github Info App
+This is a command line application for consuming the Github REST API. This project was built as a practice project.
 
-### Usage:
+## Tech Stack
+1. Node.js
+2. Typescript
+3. Lodash
+4. Request
+5. Github api
+
+## Usage:
 Follow the steps to try the app:
 
 1. Clone the app typing this command in the terminal:  
@@ -15,7 +23,10 @@ Follow the steps to try the app:
     `npm start your-username`  
 
 
-### Development:
+## Development:
 If you want to look under the hood, start from the *src* folder because it's the root directory. Type `npm run watch` into the terminal for automatic compilation of the typescript files on each file change.
 
 And Have fun Coding.
+
+## LICENSE
+[MIT](/LICENSE)
